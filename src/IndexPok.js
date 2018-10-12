@@ -8,10 +8,14 @@ import SearchBar from './SearchBar.js';
     return (
 
 
+
+
+
+ 
       <Container>
-
-        <SearchBar />
-
+          
+          <SearchBar/>
+       
         <Row className="spacebetween">
             <Col xs="12" sm="6" md="3" lg="3"  ><CardPok /></Col>
             <Col xs="12" sm="6" md="3" lg="3"  ><CardPok /></Col>
