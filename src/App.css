@@ -22,6 +22,22 @@
   color: #61dafb;
 }
 
+.background{
+  background-image: url("http://image.noelshack.com/fichiers/2016/22/1464877020-1464876038841.jpg");
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+.title{
+  height:150px;
+  margin-left: 33%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.spacebetween{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
