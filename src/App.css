@@ -22,16 +22,49 @@
   color: #61dafb;
 }
 
+.divflex{
+  display: flex;
+  justify-content: center;
+}
+.btn:not(:disabled):not(.disabled) {
+  cursor: pointer;
+  height: 25px;
+}
+.form-group {
+  margin-bottom: 1rem;
+  width: 270px;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  height: calc(2.25rem + 2px);
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #ffc107 !important;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ffc107 !important;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.btn-default {
+  color: #231582 !important;
+  background-color: #fff;
+  border-color: #ccc;
+}
+
 .background{
   background-image: url("http://image.noelshack.com/fichiers/2016/22/1464877020-1464876038841.jpg");
   background-size: 100%;
   background-attachment: fixed;
+  text-align: center;
 }
 
 .title{
   height:150px;
-  margin-left: 33%;
-  margin-top: 50px;
+  /* margin-left: 33%;
+  margin-top: 50px; */
   margin-bottom: 50px;
 }
 .spacebetween{

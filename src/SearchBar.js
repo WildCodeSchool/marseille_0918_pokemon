@@ -1,23 +1,16 @@
 import React, { Component,} from 'react'
-import { Navbar } from 'reactstrap';
+import { Navbar, FormGroup, FormControl, Button } from 'react-bootstrap';
+import './App.css';
+
  class SearchBar extends Component {
   render() {
     return (
-      <div>
-        <Navbar>
-  <Navbar.Header>
-    <Navbar.Brand>
-      <a href="#home">Brand</a>
-    </Navbar.Brand>
-    <Navbar.Toggle />
-  </Navbar.Header>
-  <Navbar.Collapse>
-    <Navbar.Text>
-      Signed in as: <Navbar.Link href="#">Mark Otto</Navbar.Link>
-    </Navbar.Text>
-    <Navbar.Text pullRight>Have a great day!</Navbar.Text>
-  </Navbar.Collapse>
-</Navbar>;
+      <div className="divflex">
+
+               <FormGroup>
+                <FormControl type="text" placeholder="Recherche Pokémon" />
+              </FormGroup>{' '}
+              <Button type="submit">Submit</Button>
       </div>
     )
   }
