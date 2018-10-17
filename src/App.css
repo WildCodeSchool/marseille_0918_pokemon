@@ -66,13 +66,17 @@
   visibility: hidden;
 }
 
-.background{
+body{
   background-image: url("http://image.noelshack.com/fichiers/2016/22/1464877020-1464876038841.jpg");
-  background-size: 100%;
+  background-size: cover;
   background-attachment: fixed;
   text-align: center;
 }
-
+h3{
+  font-size: 25px;
+  color: white;
+  font-weight: bold; 
+}
 .title{
   height:150px;
   /* margin-left: 33%;
