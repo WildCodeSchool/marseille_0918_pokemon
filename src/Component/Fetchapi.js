@@ -8,18 +8,13 @@ export default class Fetchapi extends Component {
          poke: null
        }
     }
-     async componentWillMount() {
+     async componentDidMount() {
          const url = "https://pokeapi.co/api/v2/";
          const response = await fetch(url);
          const data = await response.json();
          //this.setState({poke: data.results[0] });
       console.log(data);
       };
-      
-      componentDidMount(){
-
-
-      }
     
     
 

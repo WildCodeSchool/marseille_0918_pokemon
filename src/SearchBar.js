@@ -10,7 +10,9 @@ import './App.css';
                <FormGroup>
                 <FormControl type="text" placeholder="Recherche Pokémon" />
               </FormGroup>{' '}
-              <Button type="submit">Submit</Button>
+              <input >
+              </input>
+              <Button type="submit" onClick={() => ()}>Submit</Button>
       </div>
     )
   }
