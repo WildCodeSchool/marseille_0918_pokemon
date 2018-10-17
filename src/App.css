@@ -53,10 +53,22 @@
   background-color: #fff;
   border-color: #ccc;
 }
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+  visibility: hidden;
+}
 
-.background{
+body{
   background-image: url("http://image.noelshack.com/fichiers/2016/22/1464877020-1464876038841.jpg");
-  background-size: 100%;
+  background-size: cover;
   background-attachment: fixed;
   text-align: center;
 }
@@ -79,3 +91,4 @@
     transform: rotate(360deg);
   }
 }
+
