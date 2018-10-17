@@ -9,7 +9,7 @@ export default class Fetchapi extends Component {
        }
     }
      async componentWillMount() {
-         const url = "https://pokeapi.co/api/v2/";
+         const url = "https://pokeapi.co/api/v2/pokemon/";
          const response = await fetch(url);
          const data = await response.json();
          //this.setState({poke: data.results[0] });
@@ -21,14 +21,7 @@ export default class Fetchapi extends Component {
 
       }
     
-    
-
-
-
-
-
-
-  render() {
+   render() {
     return (
       <div>
        <h1>{this.state.loading}</h1> 
