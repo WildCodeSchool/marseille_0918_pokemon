@@ -72,7 +72,11 @@ body{
   background-attachment: fixed;
   text-align: center;
 }
-
+h3{
+  font-size: 25px;
+  color: white;
+  font-weight: bold; 
+}
 .title{
   height:150px;
   /* margin-left: 33%;
