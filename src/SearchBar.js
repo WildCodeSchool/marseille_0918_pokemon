@@ -8,11 +8,16 @@ import './App.css';
       <div className="divflex">
 
                <FormGroup>
-                <FormControl type="text" placeholder="Recherche Pokémon" />
+                <FormControl 
+                  type="text" 
+                  placeholder="Recherche Pokémon"
+                  onChange={(e) => this.props.getSearch(e.target.value)}
+                />
               </FormGroup>{' '}
-              <input >
-              </input>
-              <Button type="submit" onClick={() => ()}>Submit</Button>
+              <Button 
+              onClick={() => this.props.runRequest()}
+              type="submit">Search</Button>
+              pautocomplete= {bordercolor}
       </div>
     )
   }
