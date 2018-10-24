@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {Route,BrowserRouter,Switch,NavLink} from "react-router-dom";
-import App2 from './App2';
+import SearchCard from './SearchCard';
 import Home from './Home';
 import Pokedex2 from './Pokedex2';
 import './App.css';
@@ -20,7 +20,7 @@ class App extends Component {
                     <Switch>
                         <Route exact path="/bienvenue" component={Home} />
                         <Route path="/attrapes-les-tous" component={Pokedex2} />
-                        <Route path="/trouve-ton-pokemon" component={App2} />
+                        <Route path="/trouve-ton-pokemon" component={SearchCard} />
 
                     </Switch>
                 </div>

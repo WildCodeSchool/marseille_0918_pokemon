@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import CardPok from './CardPok';
 import { Container, Row, Col } from 'reactstrap';
-import './App2.css';
+import './SearchCard.css';
 import SearchBar from './SearchBar.js';
 
 

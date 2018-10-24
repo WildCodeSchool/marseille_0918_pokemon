@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 //import logo from './logo.svg';
-import './App2.css';
+import './SearchCard.css';
 import IndexPok from './IndexPok';
 import Fetchapi from './Component/Fetchapi';
 import ApiCard from './Component/ApiCard';
@@ -14,7 +14,7 @@ const pokemonAffiche = {
 
 };
 
-class App2 extends Component {
+class SearchCard extends Component {
   constructor(props){
     super(props);
     this.state = {
@@ -43,4 +43,4 @@ class App2 extends Component {
   }
 }
 
-export default App2;
+export default SearchCard;

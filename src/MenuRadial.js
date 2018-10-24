@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './MenuRadial.css';
-import './App2.css';
+import './SearchCard';
 
 export default class MenuRadial extends Component {
     render() {
