@@ -10,7 +10,7 @@ export default class ApiCard extends Component {
     };
 
      async componentDidMount() {
-         const url = "https://api.pokemontcg.io/v1/cards?setCode=base1&name=pikachu";
+         const url = "https://api.pokemontcg.io/v1/cards?setCode=base1&name=reichu";
          const response = await fetch(url);
          const data = await response.json();
          //this.setState({poke: data.results[0] });
