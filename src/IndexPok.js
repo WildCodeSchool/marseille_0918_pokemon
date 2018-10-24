@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import CardPok from './CardPok';
-import { Container, Row, Col } from 'reactstrap';
 import './App.css';
 import SearchBar from './SearchBar.js';
 

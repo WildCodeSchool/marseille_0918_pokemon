@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { FormGroup } from 'react-bootstrap';
 
 export default class Fetchapi extends Component {
    constructor(props){
@@ -12,18 +13,27 @@ export default class Fetchapi extends Component {
          const url = "https://pokeapi.co/api/v2/pokemon/";
          const response = await fetch(url);
          const data = await response.json();
-         //this.setState({poke: data.results[0] });
+         this.setState({poke: data.results[0] });
       console.log(data);
-      };
-      
-      componentDidMount(){
 
-
+      this.props.setPokemonPoke(data.results[0])
       }
-    
+      getSearch(searchValue){
+         this.setState({searchItem:searchValue})
+      }
+      runRequest(){
+        this.searchPokemonPoke(this.state.searchItem)
+      }
+        
    render() {
     return (
       <div>
+        <FormGroup>
+
+Il faut une SearchBar ICiIIIIIIIIIIIIIIIIIIIII
+est-ce qu'ilfaut la créer dans un autre composant????
+        </FormGroup>
+        
        <h1>{this.state.loading}</h1> 
       </div>
     )
