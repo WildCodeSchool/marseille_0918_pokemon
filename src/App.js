@@ -4,15 +4,41 @@ import './App.css';
 import IndexPok from './IndexPok';
 import Fetchapi from './Component/Fetchapi';
 import ApiCard from './Component/ApiCard';
+import CardPok from './CardPok';
+import Fab from './Fab';
+import Footer from './Footer';
+
+const pokemonAffiche = {
+  name: "Bulbasaur",
+  imageUrl: "https://images.pokemontcg.io/base1/44.png"
+
+};
 
 class App extends Component {
+  constructor(props){
+    super(props);
+    this.state = {
+      pokicard : pokemonAffiche,
+      
+    };
+  }
+
+  setPokemon(pokemon){
+    this.setState({pokicard: pokemon})
+  }
+
+
   render() {
     return (
       <div className="background App">
+      <Fab/>
         <img className="title" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/2000px-International_Pok%C3%A9mon_logo.svg.png" alt="title"></img>
-          <IndexPok />
+          <IndexPok setPokemon = {(pokemon) => this.setPokemon(pokemon)} />
           <Fetchapi/>
           <ApiCard/>
+          <CardPok pokicard = {this.state.pokicard} />
+          
+          <Footer/>
       </div>
     );
   }

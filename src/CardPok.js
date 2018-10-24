@@ -1,19 +1,17 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 
-class CardPok extends Component {
+export default class CardPok extends Component {
   render() {
     return (
       <div>
-        {
-          this.props.CardPok.map((pokemon)=>{
-            return(<li>{pokemon.name}</li>)
-         }
-          )
-        }
+          {
+            this.props.pokicard && 
+            <div className="Pokemoncard">
+              <h3>{this.props.pokicard.name}</h3>
+              <img src={this.props.pokicard.imageUrl} alt= "picture"/>
+            </div>
+          }
       </div>
-    );
+    )
   }
 }
-
-export default CardPok ;
-
