@@ -10,8 +10,12 @@
     "react-autosuggest": "^9.4.2",
     "react-bootstrap": "^0.32.4",
     "react-dom": "^16.5.2",
+<<<<<<< HEAD
     "react-floating-button-menu": "^1.0.9",
     "react-hot-loader": "^4.3.11",
+=======
+    "react-router-dom": "^4.3.1",
+>>>>>>> c7ff077736090cea7d1ad95a4facc659e93f081f
     "react-scripts": "2.0.3",
     "reactstrap": "^6.5.0"
   },

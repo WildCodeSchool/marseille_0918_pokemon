@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import CardPok from './CardPok';
 import { Container, Row, Col } from 'reactstrap';
-import './App.css';
+import './SearchCard.css';
 import SearchBar from './SearchBar.js';
+
 
  class IndexPok extends Component {
      constructor(props){
@@ -33,6 +34,7 @@ import SearchBar from './SearchBar.js';
   render() {
     return (
         <SearchBar getSearch={(searchValue) => this.getSearch(searchValue)} runRequest={() => this.runRequest()}/>
+        
     );
   }
 }

@@ -1,8 +1,9 @@
 import React, { Component,} from 'react'
 import {AutoComplete} from 'primereact/autocomplete';
 import { Navbar, FormGroup, FormControl, Button } from 'react-bootstrap';
-import './App.css';
+import './SearchCard.css';
 import './SearchBar.css';
+
 
 class SearchBar extends Component {
   state = {
@@ -28,22 +29,26 @@ class SearchBar extends Component {
     return ( 
     <div className="p-clearfix"> 
       <img alt={pokemon.name} src={pokemon.imageUrl} 
-        style={{ width: '32px', display: 'inline-block', margin: '5px 0 2px 5px' }} 
+        style={{ width: '65px', display: 'inline-block', margin: '5px 0 2px 5px' }} 
       /> 
-    <div style={{ fontSize: '18px', float: 'right', margin: '10px 10px 0 0' }}>{pokemon.name}</div> </div> ); 
+    <div style={{ fontSize: '18px', color: 'cyan' , float: 'right', margin: '10px 10px 0 0' }}>{pokemon.name}</div> </div> ); 
   }
 
   render() {
     return (
-      <div className="divflex">
+      <div className="divflex p-autocomplete-items">
         <FormGroup>
           <AutoComplete value={this.state.searchValue}
             onSelect={() => this.props.runRequest()}
-            inputStyle={{borderColor: "red"}}
+            inputStyle={{ }}
             suggestions={this.state.searchResults}
             itemTemplate={this.itemTemplate.bind(this)}
             completeMethod={() => this.autocompleteSearch()} field="name"
+<<<<<<< HEAD
             size={30} placeholder="Recherche Pokemon" minLength={2} onChange={(e) => this.setValues(e)}
+=======
+            size={30} placeholder="Trouve Ton Pokemon" minLength={3} onChange={(e) => this.setValues(e)} 
+>>>>>>> c7ff077736090cea7d1ad95a4facc659e93f081f
           />
         </FormGroup>
       </div>
