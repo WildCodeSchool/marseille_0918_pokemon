@@ -1,3 +1,9 @@
-.back-home{
-    background-color: orange;
+.background-home{
+    background-image: url("https://images7.alphacoders.com/592/thumb-1920-592678.jpg ");
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    min-height: 720px;  
 }
+
+/*---------------------version mobile--------------------------*/
