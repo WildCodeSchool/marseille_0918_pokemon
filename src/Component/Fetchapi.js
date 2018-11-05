@@ -4,16 +4,16 @@ export default class Fetchapi extends Component {
    constructor(props){
        super(props)
        this.state = {
-         loading: true,  
-         poke: null
+         poke: [],
        }
     }
-     async componentWillMount() {
-         const url = "https://pokeapi.co/api/v2/pokemon/";
-         const response = await fetch(url);
-         const data = await response.json();
-         //this.setState({poke: data.results[0] });
-      console.log(data);
+
+      componentDidMount() {
+       fetch("https://pokeapi.co/api/v2/pokemon/")
+        .then(response => response.json())
+        .then(response => this.setState({poke :response}))
+        
+    
       };
     
    render() {
@@ -24,5 +24,3 @@ export default class Fetchapi extends Component {
     )
   }
 }
-
-

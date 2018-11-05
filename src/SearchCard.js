@@ -5,6 +5,8 @@ import IndexPok from './IndexPok';
 import Fetchapi from './Component/Fetchapi';
 import ApiCard from './Component/ApiCard';
 import CardPok from './CardPok';
+
+
 //  
 
 

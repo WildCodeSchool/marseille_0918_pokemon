@@ -6,6 +6,7 @@ import './SearchBar.css';
 
 
 class SearchBar extends Component {
+  
   state = {
     searchValue: '',
     searchResults: []
@@ -44,11 +45,7 @@ class SearchBar extends Component {
             suggestions={this.state.searchResults}
             itemTemplate={this.itemTemplate.bind(this)}
             completeMethod={() => this.autocompleteSearch()} field="name"
-<<<<<<< HEAD
-            size={30} placeholder="Recherche Pokemon" minLength={2} onChange={(e) => this.setValues(e)}
-=======
             size={30} placeholder="Trouve Ton Pokemon" minLength={3} onChange={(e) => this.setValues(e)} 
->>>>>>> c7ff077736090cea7d1ad95a4facc659e93f081f
           />
         </FormGroup>
       </div>
