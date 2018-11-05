@@ -71,8 +71,13 @@
   background-size: cover;
   background-attachment: fixed;
   text-align: center;
+<<<<<<< HEAD
   min-height: 720px;
 
+=======
+  /* min-height: 720px; */
+  min-height: 2000px;
+>>>>>>> 00a071de97764122b84c08a15e112c61a49dc207
 }
 
 

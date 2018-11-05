@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .App {
     background-image: url("https://zupimages.net/up/18/40/oiwi.jpg");
     width: 100vw;
@@ -21,3 +22,40 @@
       background-image: url("https://orig00.deviantart.net/95ef/f/2016/311/0/f/pokemon_twitch_theme_a_2a_by_masterq2-danm4kn.gif");
     }
   } */
+=======
+.background-pok{
+    background-image: url("map_2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    min-height: 720px;
+    margin: 0;
+    overflow: hidden;
+}
+.my-poki {
+    /* display: block;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+    margin: 50px auto; */
+    /* background-color: #FE0065; */
+    background-image: url('pokedex-moyen.gif');
+    border-radius: 10px;
+    box-shadow: 0 14px 45px rgba(0, 0, 0, 0.22), 0 18px 45px rgba(0, 0, 0, 0.22);
+    width: 990px;
+    /* height: 395px; */
+    margin-top: 15%;
+    margin: auto;
+    /* margin-top: 155px; */
+    display: flex;
+    
+    background-repeat: no-repeat;
+    height: 490px;
+    margin-top: 125px;
+  }
+
+  @media (max-width: 767px){
+
+  }
+>>>>>>> 00a071de97764122b84c08a15e112c61a49dc207
