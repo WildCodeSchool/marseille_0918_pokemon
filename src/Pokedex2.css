@@ -1,3 +1,23 @@
-body{
-    background-color: blueviolet;
-}
+.App {
+    background-image: url("https://zupimages.net/up/18/40/oiwi.jpg");
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  
+  
+  
+  
+  
+  /* @media screen and (max-width: 680px) {
+    .Pokedex {
+      background-image: url("http://image.noelshack.com/fichiers/2018/43/3/1540367350-pokehaut.png");
+      background-image: url("http://image.noelshack.com/fichiers/2018/43/3/1540367356-pokebas.png");
+  }
+  }
+  
+  @media screen and (min-width: 681px) {
+    .Pokedex {
+      background-image: url("https://orig00.deviantart.net/95ef/f/2016/311/0/f/pokemon_twitch_theme_a_2a_by_masterq2-danm4kn.gif");
+    }
+  } */

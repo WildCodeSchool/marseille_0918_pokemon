@@ -1,0 +1,61 @@
+.social{
+    width: 60px;
+    height: 40px;
+    padding-left: 20px;
+    
+    }
+    
+    .footer-aloys{
+    /* display: flex; */
+    /* justify-content: center; */
+    /* width: 100%;
+    height: 60 px; */
+    bottom: 15px;
+
+    position: absolute;
+    width: 100%;
+    
+    }
+    /* .droits{
+    display: flex;
+    padding-right: 345px;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    width: 150%;
+    padding-left: 42%;
+    color: red;
+    font-size: 20px;
+    }  */
+    
+    
+    /*.....................................mobile...................................................*/
+    
+    
+    @media (max-width: 767px) {
+    /* .droits {
+    display: flex;
+    padding-right: 345px;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    width: 155%;
+    padding-left: 42%;
+    color: red;
+    font-size: 10px;
+    } */
+    
+    .reseaux{
+    display: grid;
+    
+    }
+    .social {
+    padding: 2px;
+    height: 40px;
+    
+    }
+    
+    
+    
+    
+    }
