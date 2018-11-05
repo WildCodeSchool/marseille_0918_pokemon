@@ -12,7 +12,7 @@ import CardPok from './CardPok';
 
 const pokemonAffiche = {
   name: " ",
-  imageUrl: "https://i.skyrock.net/7184/41327184/pics/1720525060.gif"
+  imageUrl: "https://orig00.deviantart.net/0a57/f/2018/167/0/3/pikachu_waving_gif_by_johnkroozie-dcejpi1.gif"
 
 };
 
