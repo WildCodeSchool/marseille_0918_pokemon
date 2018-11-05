@@ -6,6 +6,7 @@
     min-height: 720px;
     margin: 0;
     overflow: hidden;
+    min-height: 2000px;
 }
 .my-poki {
     /* display: block;
@@ -31,5 +32,34 @@
   }
 
   @media (max-width: 767px){
+    .my-poki {
+    background-image: url('pokemobile.png');
+    border-radius: 10px;
+    box-shadow: 0 14px 45px rgba(0, 0, 0, 0.22), 0 18px 45px rgba(0, 0, 0, 0.22);
+    width: 990px;
+    /* height: 395px; */
+    margin-top: 15%;
+    margin: auto;
+    /* margin-top: 155px; */
+    display: flex;
+    
+    background-repeat: no-repeat;
+    height: 1191px;
+    margin-top: 98px;
+    width: 377px;
+
+  }
+  .sprite-image {
+    width: 203%;
+    height: 382px;
+    margin: 10px auto;
+    background-color: #585858;
+    background-image: url(https://i.giphy.com/media/6hNJHnfsuoFDa/giphy.webp);
+    border: 15px solid #DEDEDE;
+    border-radius: 5px;
+    color: #585858;
+    margin-left: -179px;
+    margin-top: 648px;
+}
 
   }

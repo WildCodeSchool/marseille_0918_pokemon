@@ -7,11 +7,11 @@ render() {
 return (
 <div className="footer-aloys">
 
-{/* <div className="copyright">
+ <div className="copyright">
 <p className="droits" >
 ©2018 Team Rocket Company All rights reserved.
 </p>
-</div> */}
+</div> 
 
 <div className="reseaux">
 

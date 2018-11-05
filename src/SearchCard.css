@@ -75,7 +75,24 @@
   min-height: 2000px;
 }
 
+.evee {
+  height: 200px;
+  width: 200px;
+  padding-left: -19px;
+  padding-top: 42px;
+  position: fixed;
+}
 
+.pikachu {
+  height: 200px;
+  width: 200px;
+}
+
+/* .ariados {
+  height: 200px;
+  width: 200px;
+
+} */
 
 h3{
   font-size: 25px;

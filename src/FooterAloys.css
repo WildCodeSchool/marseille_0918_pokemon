@@ -16,37 +16,29 @@
     width: 100%;
     
     }
-    /* .droits{
-    display: flex;
-    padding-right: 345px;
-    bottom: 0;
-    left: 0;
-    position: absolute;
-    width: 150%;
-    padding-left: 42%;
-    color: red;
-    font-size: 20px;
-    }  */
-    
+    .droits {
+        display: flex;
+        /* padding-right: 343px; */
+        bottom: -18px;
+        left: 0;
+        position: absolute;
+        width: 150%;
+        padding-left: 75%;
+        color: #ff5700;
+        font-size: 13px;
+    }
     
     /*.....................................mobile...................................................*/
     
     
     @media (max-width: 767px) {
-    /* .droits {
-    display: flex;
-    padding-right: 345px;
-    bottom: 0;
-    left: 0;
-    position: absolute;
-    width: 155%;
-    padding-left: 42%;
-    color: red;
-    font-size: 10px;
-    } */
+    .droits {
+    display: none;
+    }
+    
     
     .reseaux{
-    display: grid;
+    display: none;
     
     }
     .social {
@@ -54,7 +46,7 @@
     height: 40px;
     
     }
-    
+
     
     
     

@@ -33,9 +33,9 @@ class SearchCard extends Component {
       <div className="background-App">
         <img className="pikachu" src="https://vignette.wikia.nocookie.net/robloxpokemonbrickbronze/images/9/94/Pikachu-AttackAnimation-XY-1.gif/revision/latest?cb=20170423121006" alt="pikachu"></img>
         <img className="evee" src="http://www.pokestadium.com/sprites/xy/eevee-2.gif" alt="évoli"></img>
-
+        <img className="ariados" src="https://play.pokemonshowdown.com/sprites/xyani-shiny/ariados.gif" alt="ariados"></img>
         
-        <img className="title" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/2000px-International_Pok%C3%A9mon_logo.svg.png" alt="title"></img>
+        {/* <img className="title" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/2000px-International_Pok%C3%A9mon_logo.svg.png" alt="title"></img> */}
           <IndexPok setPokemon = {(pokemon) => this.setPokemon(pokemon)} />
           <Fetchapi/>
           <ApiCard/>

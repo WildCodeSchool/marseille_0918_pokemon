@@ -22,7 +22,7 @@ class App extends Component {
              </div>
 
           <Switch>
-              <Route exact path="/bienvenue" component={Home}/>
+              <Route exact path="/" component={Home}/>
               <Route path="/attrapes-les-tous" component={Pokedex2}/>
               <Route path="/trouve-ton-pokemon" component={SearchCard}/>
 
