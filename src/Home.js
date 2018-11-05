@@ -1,16 +1,18 @@
 import React, { Component } from 'react'
 import './Home.css';
+import Title from './Title';
+import './Title.css';
 
 
 
 export default class Home extends Component {
+
   render() {
     return (
       <div className="background-home">
-        {/* <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/905237/International_Pok%C3%A9mon_logo.svg.png" /> */}
-               <img className="title" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/2000px-International_Pok%C3%A9mon_logo.svg.png" alt="title"></img>
-
-        <div className="about">
+        <Title />
+        <div className="about"> 
+  
           <div className="close">x</div>
           <p>Amusez-vous à capturer des pokémons !</p>
           <br />
