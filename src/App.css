@@ -9,24 +9,13 @@
 
 /*
 .nav-app a{
-<<<<<<< HEAD
     color: #f44336;
     margin-left: 20px;
 } */
-=======
-    /* color: #f44336;
-    margin-left: 20px; */
-    
-    
-}
->>>>>>> 00a071de97764122b84c08a15e112c61a49dc207
+
 .nav-app a:hover{
     color:yellow;
     margin-left: 20px;
-<<<<<<< HEAD
-   
-
-
 }
 
 /* img {
@@ -104,40 +93,3 @@
 
 
     
-=======
-    
-}
-
-a .Home{
-
-    height: 60px;
-    width: 60px;
-
-}
-a .Pokedex{
-    height: 60px;
-    width: 60px;
-}
-a .Indexpok{
-    height: 60px;
-    width: 60px;
-}
-
-/*----------------Version Mobile----------------------*/
-
-@media (max-width: 767px){
-
-    .nav-app{
-        bottom: 0;
-        left: 0;
-        position: fixed;
-        text-align: center;
-        background-color: #feee3999;
-        width: 100%;
-        height: 95px;
-        padding-top: 15px;
-    }
-
-
-}
->>>>>>> 00a071de97764122b84c08a15e112c61a49dc207

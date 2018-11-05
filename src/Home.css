@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-.back-home{
- background-image: url("https://images7.alphacoders.com/592/thumb-1920-592678.jpg");
-=======
 .background-home{
     background-image: url("home-7.jpg");
     background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/905237/anime-panorama-priroda-5d1a803.jpg");
@@ -177,5 +173,4 @@ input[type=checkbox]:checked + label.poke-zero, input[type=checkbox]:checked + l
 @media (max-width: 767px){
 
 
->>>>>>> 00a071de97764122b84c08a15e112c61a49dc207
 }

@@ -11,15 +11,6 @@ class App extends Component {
         return(
             <BrowserRouter>
                 <div>
-<<<<<<< HEAD
-=======
-                    <div className="wall" />
-                    <div className="nav-app">
-                        <NavLink exact to="/bienvenue" activeClassName="selected"><img className="Home" src="https://image.flaticon.com/icons/svg/188/188922.svg" /></NavLink>
-                        <NavLink exact to="/attrapes-les-tous" activeClassName="selected"><img className="Pokedex" src="https://image.flaticon.com/icons/svg/188/188965.svg" /></NavLink>
-                        <NavLink exact to="/trouve-ton-pokemon" activeClassName="selected"><img className="Indexpok" src="https://image.flaticon.com/icons/svg/188/188937.svg" /></NavLink>
-                    </div>
->>>>>>> 00a071de97764122b84c08a15e112c61a49dc207
 
         <div className="nav-app">
 

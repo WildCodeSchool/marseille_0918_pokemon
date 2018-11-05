@@ -27,14 +27,6 @@ export default class Pokedex2 extends Component {
 
   render() {
     return (
-<<<<<<< HEAD
-      <div>
-        <div className="App">
-
-         <div className="Pokedex" >
-         </div>
-       </div>
-=======
       <div className="background-pok">
         <div className="my-poki"> 
           <PokeList handleOnClick = {this.handleOnClick}/>
@@ -42,7 +34,6 @@ export default class Pokedex2 extends Component {
           
 
         </div>        
->>>>>>> 00a071de97764122b84c08a15e112c61a49dc207
       </div>
     )
   }
