@@ -8,7 +8,7 @@ export default class CardPok extends Component {
             this.props.pokicard && 
             <div className="Pokemoncard">
               <h3>{this.props.pokicard.name}</h3>
-              <img src={this.props.pokicard.imageUrl} alt= "picture"/>
+              <img src={this.props.pokicard.imageUrl} alt= "pokemonPicture"/>
             </div>
           }
       </div>

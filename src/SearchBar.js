@@ -1,6 +1,6 @@
 import React, { Component,} from 'react'
 import {AutoComplete} from 'primereact/autocomplete';
-import { Navbar, FormGroup, FormControl, Button } from 'react-bootstrap';
+import {  FormGroup } from 'react-bootstrap';
 import './SearchCard.css';
 import './SearchBar.css';
 

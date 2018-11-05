@@ -30,8 +30,6 @@ export default class Fetchapi extends Component {
       <div>
         <FormGroup>
 
-Il faut une SearchBar ICiIIIIIIIIIIIIIIIIIIIII
-est-ce qu'ilfaut la créer dans un autre composant????
         </FormGroup>
         
        <h1>{this.state.loading}</h1> 
