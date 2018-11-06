@@ -25,6 +25,7 @@
 .divflex{
   display: flex;
   justify-content: center;
+  margin-top: 140px;
 }
 .btn:not(:disabled):not(.disabled) {
   cursor: pointer;
@@ -82,12 +83,7 @@ h3{
   color: white;
   font-weight: bold; 
 }
-.title{
-  height:133px;
-  /* margin-left: 33%;
-  margin-top: 50px; */
-  margin-bottom: 50px;
-}
+
 .spacebetween{
   margin-top: 30px;
   margin-bottom: 30px;

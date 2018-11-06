@@ -3,6 +3,8 @@ import PokeList from './Pokelist';
 import DetailView from './DetailView';
 import Pokemon from './Pokemon';
 import './Pokedex2.css';
+import Title from './Title';
+import './Title.css';
 
 export default class Pokedex2 extends Component {
   constructor() {
@@ -28,6 +30,7 @@ export default class Pokedex2 extends Component {
   render() {
     return (
       <div className="background-pok">
+      <Title />
         <div className="my-poki"> 
           <PokeList handleOnClick = {this.handleOnClick}/>
           <DetailView pokemon = {this.state.pokemon}/>

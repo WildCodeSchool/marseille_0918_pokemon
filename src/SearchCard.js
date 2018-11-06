@@ -5,6 +5,8 @@ import IndexPok from './IndexPok';
 import Fetchapi from './Component/Fetchapi';
 import ApiCard from './Component/ApiCard';
 import CardPok from './CardPok';
+import Title from './Title';
+import './Title.css';
 //  
 
 
@@ -31,8 +33,7 @@ class SearchCard extends Component {
   render() {
     return (
       <div className="background-App">
-        
-        <img className="title" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/2000px-International_Pok%C3%A9mon_logo.svg.png" alt="title"></img>
+          <Title />
           <IndexPok setPokemon = {(pokemon) => this.setPokemon(pokemon)} />
           <Fetchapi/>
           <ApiCard/>

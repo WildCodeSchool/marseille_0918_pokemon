@@ -33,43 +33,8 @@
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
     <title>React App</title>
-    <script>
-        $(document).ready(function(){
-  animateDiv('.pokemon-1');
-  animateDiv('.pokemon-2');
-  animateDiv('.pokemon-3');
-  animateDiv('.pokemon-4');
-  animateDiv('.pokemon-5');
-  animateDiv('.pokemon-6');
-  animateDiv('.pokemon-7');
-  animateDiv('.pokemon-8');
-  $(".close").click(function(){
-    $(".about").fadeOut()
-  });
-});
 
-function makeNewPosition(){
-  var h = $(window).height() - 50;
-  var w = $(window).width() -  50;
-  var nh = Math.floor(Math.random() * h);
-  var nw = Math.floor(Math.random() * w);
-  return [nh,nw];        
-}
-
-function animateDiv(poke){
-  var newq = makeNewPosition();
-  $(poke).animate({ top: newq[0], left: newq[1] }, 1500, function(){
-    animateDiv(poke);        
-  });  
-};
-
-$('input:checkbox').change(function(){
- if($(this).is(':checked')) 
-   $(this).parent().addClass('caught'); 
- else 
-   $(this).parent().removeClass('caught')
-});
-      </script>
+    
   </head>
   <body>
     <noscript>
@@ -98,42 +63,46 @@ $('input:checkbox').change(function(){
       var Alert = ReactBootstrap.Alert;
       </script>
 
+      
+
       <script>
-        $(document).ready(function(){
-  animateDiv('.pokemon-0');
-  animateDiv('.pokemon-2');
-  animateDiv('.pokemon-3');
-  animateDiv('.pokemon-4');
-  animateDiv('.pokemon-5');
-  animateDiv('.pokemon-6');
-  animateDiv('.pokemon-7');
-  animateDiv('.pokemon-8');
-  $(".close").click(function(){
-    $(".about").fadeOut()
-  });
-});
+        $(document).ready(function () {
+          animateDiv('.pokemon-0');
+          animateDiv('.pokemon-2');
+          animateDiv('.pokemon-3');
+          animateDiv('.pokemon-4');
+          animateDiv('.pokemon-5');
+          animateDiv('.pokemon-6');
+          animateDiv('.pokemon-7');
+          animateDiv('.pokemon-8');
+          $(".close").click(function () {
+            $(".about").fadeOut()
+          });
+        });
 
-function makeNewPosition(){
-  var h = $(window).height() - 50;
-  var w = $(window).width() -  50;
-  var nh = Math.floor(Math.random() * h);
-  var nw = Math.floor(Math.random() * w);
-  return [nh,nw];        
-}
 
-function animateDiv(poke){
-  var newq = makeNewPosition();
-  $(poke).animate({ top: newq[0], left: newq[1] }, 1800, function(){
-    animateDiv(poke);        
-  });  
-};
 
-$('input:checkbox').change(function(){
- if($(this).is(':checked')) 
-   $(this).parent().addClass('caught'); 
- else 
-   $(this).parent().removeClass('caught')
-});
+        function makeNewPosition() {
+          var h = $(window).height() - 50;
+          var w = $(window).width() - 50;
+          var nh = Math.floor(Math.random() * h);
+          var nw = Math.floor(Math.random() * w);
+          return [nh, nw];
+        }
+
+        function animateDiv(poke) {
+          var newq = makeNewPosition();
+          $(poke).animate({ top: newq[0], left: newq[1] }, 1800, function () {
+            animateDiv(poke);
+          });
+        };
+
+        $('input:checkbox').change(function () {
+          if ($(this).is(':checked'))
+            $(this).parent().addClass('caught');
+          else
+            $(this).parent().removeClass('caught')
+        });
       </script>
       
   </body>
