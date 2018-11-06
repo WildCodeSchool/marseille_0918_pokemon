@@ -31,6 +31,62 @@
   }
 
   @media (max-width: 767px){
-      
 
-  }
+    .my-poki {
+        background-image: url('Pokehaut.png');
+        border-radius: 10px;
+        box-shadow: 0 14px 45px rgba(0, 0, 0, 0.22), 0 18px 45px rgba(0, 0, 0, 0.22);
+        width: 990px;
+        /* height: 395px; */
+        margin-top: 15%;
+        margin: auto;
+        /* margin-top: 155px; */
+        display: flex;
+        background-repeat: no-repeat;
+        height: 1191px;
+        margin-top: 120px;
+        width: 377px;
+        margin-bottom: -456px;
+        
+    }
+  .poke-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 38%;
+    height: 28.3%;
+    padding: 0px;
+    background-color: #312f2e99;
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.5);
+    overflow: auto;
+    margin-top: 153px;
+    margin-left: 28px;
+}
+.sprite-image {
+    width: 113%;
+    height: 166px;
+    margin: 10px auto;
+    background-color: #585858;
+    background-image: url(https://i.giphy.com/media/6hNJHnfsuoFDa/giphy.webp);
+    border: 5px solid #DEDEDE;
+    border-radius: 5px;
+    color: #585858;
+    margin-left: -9px;
+    margin-top: -272%;
+}
+.data-wrapper {
+    width: 114%;
+    height: 171px;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: #585858;
+    /* border-radius: 10px; */
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.22);
+    color: #FFF;
+    margin-left: -11px;
+    margin-top: -9px;
+    margin-bottom: 90px;
+    /* border: 2px solid black; */
+}
+}
