@@ -1,14 +1,10 @@
 import React, { Component } from 'react';
-//import logo from './logo.svg';
 import './SearchCard.css';
 import IndexPok from './IndexPok';
 import Fetchapi from './Component/Fetchapi';
-import ApiCard from './Component/ApiCard';
 import CardPok from './CardPok';
 import Title from './Title';
 import './Title.css';
-//  
-
 
 const pokemonAffiche = {
   name: " ",
@@ -17,31 +13,27 @@ const pokemonAffiche = {
 };
 
 class SearchCard extends Component {
-  constructor(props){
+  constructor(props) {
     super(props);
     this.state = {
-      pokicard : pokemonAffiche,
-      
+      pokicard: pokemonAffiche,
+
     };
   }
 
-  setPokemon(pokemon){
-    this.setState({pokicard: pokemon})
+  setPokemon(pokemon) {
+    this.setState({ pokicard: pokemon })
   }
-
 
   render() {
     return (
       <div className="background-App">
-          <Title />
-          <IndexPok setPokemon = {(pokemon) => this.setPokemon(pokemon)} />
-          <Fetchapi/>
-          <ApiCard/>
-          <CardPok pokicard = {this.state.pokicard} />
-        
+        <Title />
+        <IndexPok setPokemon={(pokemon) => this.setPokemon(pokemon)} />
+        <Fetchapi />
+        <CardPok pokicard={this.state.pokicard} />
       </div>
     );
   }
 }
-
 export default SearchCard;

@@ -1,43 +1,26 @@
-.background-home{
-    background-image: url("home-7.jpg");
-    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/905237/anime-panorama-priroda-5d1a803.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-    text-align: center;
-    min-height: 720px;  
-}
-
-
-
-
-
-
-
-
-
-
-
-@import "https://fonts.googleapis.com/css?family=Roboto:400,400i,700";
+.h1,
 h1 {
-  text-shadow: 2px 2px 2px rgba(150, 150, 150, 1);
-  font-size: 32px;
+  font-size: 2.5rem;
+  color: #46b964 !important;
 }
+
 p {
   line-height: 2rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 16px;
+  color: #60b4da;
+  font-weight: 700;
 }
+
 img {
   width: 300px;
 }
-/* @media screen and (min-width: 992px) {
-  img {
-    width: 600px;
-  }
-} */
+
 .background-home {
   margin: 0;
-  /* padding-top: 45px; */
   height: 100%;
-  color: #fff;
+  color: #FFF;
   text-align: center;
   overflow: hidden;
   background: url('https://fifty-wp.s3.amazonaws.com/esport//uploads/2018/05/pokemon_lets_go.jpg') no-repeat center center fixed;
@@ -51,57 +34,61 @@ img {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  background-attachment: fixed;
+  min-height: 720px;
 }
-/* footer {
-  position: fixed;
-  bottom: 0;
-  border-top: 1px solid grey;
-  background-image: linear-gradient(to top, #093373, #003496, #0033b7, #002cd7, #0015f4);
-  width: 100%;
-  padding: 15px;
-} */
-.pokemon-0 .poke-zero{
-    min-width: 90px;
-    height: 90px;
-}
-.pokemon-2 .poke-two{
-    min-width: 90px;
-    height: 90px;
-}
-.pokemon-3 .poke-three{
-    min-width: 90px;
-    height: 90px;
-}
-.pokemon-4 .poke-four{
-    min-width: 90px;
-    height: 90px;
-}
-.pokemon-5 .poke-five{
-    min-width: 90px;
-    height: 90px;
-}
-.pokemon-6 .poke-six{
-    min-width: 90px;
-    height: 90px;
-}
-.pokemon-7 .poke-seven{
-    min-width: 90px;
-    height: 90px;
-}
-.pokemon-8 .poke-eight{
-    min-width: 90px;
-    height: 90px;
-}
-footer div {
-  z-index:2;
 
+.pokemon-0 .poke-zero {
+  min-width: 90px;
+  height: 90px;
+}
+
+.pokemon-2 .poke-two {
+  min-width: 90px;
+  height: 90px;
+}
+
+.pokemon-3 .poke-three {
+  min-width: 90px;
+  height: 90px;
+}
+
+.pokemon-4 .poke-four {
+  min-width: 90px;
+  height: 90px;
+}
+
+.pokemon-5 .poke-five {
+  min-width: 90px;
+  height: 90px;
+}
+
+.pokemon-6 .poke-six {
+  min-width: 90px;
+  height: 90px;
+}
+
+.pokemon-7 .poke-seven {
+  min-width: 90px;
+  height: 90px;
+}
+
+.pokemon-8 .poke-eight {
+  min-width: 90px;
+  height: 90px;
+}
+
+footer div {
+  z-index: 2;
   width: 55px;
   height: 80px;
   display: inline-block;
 }
+
 input[type=checkbox] {
   display: none;
 }
+
 [class*='poke-'] {
   padding-left: 20px;
   display: flex;
@@ -113,64 +100,116 @@ input[type=checkbox] {
   display: inline-block;
   cursor: pointer;
 }
+
 [class*='zero'] {
   background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/905237/1.png);
 }
+
 [class*='two'] {
   background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/905237/2.png);
 }
+
 [class*='three'] {
   background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/905237/3.png);
 }
+
 [class*='four'] {
   background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/905237/4.png);
 }
+
 [class*='five'] {
   background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/905237/5.png);
 }
+
 [class*='six'] {
   background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/905237/6.png);
 }
+
 [class*='seven'] {
   background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/905237/7.png);
 }
+
 [class*='eight'] {
   background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/905237/8.png);
 }
-input[type=checkbox]:checked + label.poke-zero, input[type=checkbox]:checked + label.poke-two, input[type=checkbox]:checked + label.poke-three, input[type=checkbox]:checked + label.poke-four, input[type=checkbox]:checked + label.poke-five, input[type=checkbox]:checked + label.poke-six, input[type=checkbox]:checked + label.poke-seven, input[type=checkbox]:checked + label.poke-eight {
+
+input[type=checkbox]:checked+label.poke-zero,
+input[type=checkbox]:checked+label.poke-two,
+input[type=checkbox]:checked+label.poke-three,
+input[type=checkbox]:checked+label.poke-four,
+input[type=checkbox]:checked+label.poke-five,
+input[type=checkbox]:checked+label.poke-six,
+input[type=checkbox]:checked+label.poke-seven,
+input[type=checkbox]:checked+label.poke-eight {
   background-position: right center;
 }
+
 [class*='pokemon'] {
   width: 50px;
   display: inline-block;
   padding: 15px;
   position: fixed;
 }
+
 .caught {
   position: static;
 }
+
 .about {
-  text-align: left;
+  text-align: center;
   border-radius: 10px;
-  background-image: linear-gradient(to bottom, #051937, #001f56, #002374, #002491, #291dac);
-  border: 1px solid grey;
+  background-color: #f44336f0;
+  border: 1px solid #316ab2;
   padding: 25px;
   font-size: 1.3rem;
   position: absolute;
-  bottom: 50px;
-  left: 15px;
+  bottom: 132px;
+  left: 8%;
+  width: 84%;
   z-index: 99;
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
 }
+
 .about .close {
   float: right;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
 }
 
+audio,
+canvas,
+progress,
+video {
+  vertical-align: baseline;
+  display: flex;
+  width: 88px;
+  padding: -45px;
+  float: right;
+  margin-right: 13px;
+}
 
-/*---------------------version mobile--------------------------*/
+/*---------------------Version Mobile--------------------------*/
 
-@media (max-width: 767px){
+@media (max-width: 767px) {
+  audio,
+  canvas,
+  progress,
+  video {
+    visibility: hidden;
+  }
+}
 
-
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  { 
+  .background-home{
+    min-height: 1024px;
+  }
+  .about{
+    bottom: 332px;
+  }
+}
+@media only screen 
+and (min-device-width : 1024px) 
+and (max-device-width : 1366px){
+  
 }

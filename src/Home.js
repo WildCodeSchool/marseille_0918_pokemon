@@ -3,19 +3,20 @@ import './Home.css';
 import Title from './Title';
 import './Title.css';
 
-
-
 export default class Home extends Component {
 
   render() {
     return (
       <div className="background-home">
         <Title />
-        <div className="about"> 
-  
+        <div className="about">
+
           <div className="close">x</div>
-          <p>Amusez-vous à capturer des pokémons !</p>
+          <h1>« Bienvenue dans le monde magique des Pokemons. »</h1>
           <br />
+          <p>Devenez le meilleur dresseur en vous entraînant à capturer des Pokemons.</p>
+          <p>Vous pourrez consulter votre Pokedex pour améliorer vos connaissances sur ces créatures
+et consulter l’ensemble de la collection des cartes Pokemons.</p>
           <p>Attrapez les Tous !!</p>
         </div>
         <footer>
@@ -51,12 +52,13 @@ export default class Home extends Component {
             <input id="poke8" type="checkbox" />
             <label htmlFor="poke8" className="poke-eight" />
           </div>
-          
+
         </footer>
-
-       
-
+        <audio controls autoPlay>
+          <source src="http://www.dinosoria.com/generiques/dessins_anime/pokemon.mp3"
+            type="audio/mpeg "></source>
+        </audio>
       </div>
-    )
+    );
   }
 }

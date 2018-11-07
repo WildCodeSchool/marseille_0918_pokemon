@@ -1,101 +1,126 @@
 .App {
-  text-align: center;
+	text-align: center;
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+	animation: App-logo-spin infinite 20s linear;
+	height: 40vmin;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
 }
 
 .App-link {
-  color: #61dafb;
+	color: #61dafb;
 }
 
-.divflex{
-  display: flex;
-  justify-content: center;
-  margin-top: 140px;
+.divflex {
+	display: flex;
+	justify-content: center;
+	margin-top: 140px;
 }
+
 .btn:not(:disabled):not(.disabled) {
-  cursor: pointer;
-  height: 25px;
+	cursor: pointer;
+	height: 25px;
 }
+
 .form-group {
-  margin-bottom: 1rem;
-  width: 270px;
+	margin-bottom: 1rem;
+	width: 270px;
 }
+
 .form-control {
-  display: block;
-  width: 100%;
-  height: calc(2.25rem + 2px);
-  padding: .375rem .75rem;
-  font-size: 1rem;
-  line-height: 1.5;
-  color: #ffc107 !important;
-  background-color: #fff;
-  background-clip: padding-box;
-  border: 1px solid #ffc107 !important;
-  border-radius: .25rem;
-  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+	display: block;
+	width: 100%;
+	height: calc(2.25rem + 2px);
+	padding: .375rem .75rem;
+	font-size: 1rem;
+	line-height: 1.5;
+	color: #ffc107 !important;
+	background-color: #fff;
+	background-clip: padding-box;
+	border: 1px solid #ffc107 !important;
+	border-radius: .25rem;
+	transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
+
 .btn-default {
-  color: #231582 !important;
-  background-color: #fff;
-  border-color: #ccc;
+	color: #231582 !important;
+	background-color: #fff;
+	border-color: #ccc;
 }
+
 .card {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  min-width: 0;
-  word-wrap: break-word;
-  background-color: #fff;
-  background-clip: border-box;
-  border: 1px solid rgba(0,0,0,.125);
-  border-radius: .25rem;
-  visibility: hidden;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	min-width: 0;
+	word-wrap: break-word;
+	background-color: #fff;
+	background-clip: border-box;
+	border: 1px solid rgba(0, 0, 0, .125);
+	border-radius: .25rem;
+	visibility: hidden;
 }
 
-.background-App{
-  background-image: url("http://image.noelshack.com/fichiers/2016/22/1464877020-1464876038841.jpg");
-  background-size: cover;
-  background-attachment: fixed;
-  text-align: center;
-  /* min-height: 720px; */
-  min-height: 2000px;
+.background-App {
+	background-image: url("http://image.noelshack.com/fichiers/2016/22/1464877020-1464876038841.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	text-align: center;
+	min-height: 720px;
 }
 
-
-
-h3{
-  font-size: 25px;
-  color: white;
-  font-weight: bold; 
+h3 {
+	font-size: 25px;
+	color: white;
+	font-weight: bold;
 }
 
-.spacebetween{
-  margin-top: 30px;
-  margin-bottom: 30px;
+.spacebetween {
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
+
 @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
 }
 
+/*-----------------Version Mobile-----------------------*/
 
+@media (max-width: 767px) {
+	.background-App {
+		background-image: url(http://image.noelshack.com/fichiers/2016/22/1464877020-1464876038841.jpg);
+		background-size: cover;
+		background-attachment: inherit;
+		text-align: center;
+		min-height: 720px;
+	}
+}
 
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  { 
+  .background-App{
+    min-height: 1024px;
+  }
+}
+@media only screen 
+and (min-device-width : 1024px) 
+and (max-device-width : 1366px){
+  
+}

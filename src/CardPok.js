@@ -6,13 +6,12 @@ export default class CardPok extends Component {
   render() {
     return (
       <div>
-          {
-            this.props.pokicard && 
-            <div className="Pokemoncard">
-              <h3>{this.props.pokicard.name}</h3>
-              <img className="zoom" src={this.props.pokicard.imageUrl} alt= "picture"/>
-            </div>
-          }
+        {
+          this.props.pokicard &&
+          <div className="Pokemoncard">
+            <img className="zoom" src={this.props.pokicard.imageUrl} alt="card" />
+          </div>
+        }
       </div>
     )
   }
