@@ -13,16 +13,16 @@ export default class Pokedex2 extends Component {
       pokemon: ''
     };
 
-    this.handleOnClick = this.handleOnClick.bind (this); 
+    this.handleOnClick = this.handleOnClick.bind(this);
   }
 
-   handleOnClick(id) {
+  handleOnClick(id) {
     fetch(`https://pokeapi.co/api/v2/pokemon/${id}/`)
       .then(res => res.json())
       .then(data => {
         const pokemon = new Pokemon(data);
 
-        this.setState ({pokemon});
+        this.setState({ pokemon });
       })
       .catch(err => console.log(err));
   }
@@ -30,13 +30,11 @@ export default class Pokedex2 extends Component {
   render() {
     return (
       <div className="background-pok">
-      <Title />
-        <div className="my-poki"> 
-          <PokeList handleOnClick = {this.handleOnClick}/>
-          <DetailView pokemon = {this.state.pokemon}/>
-          
-
-        </div>        
+        <Title />
+        <div className="my-poki">
+          <PokeList handleOnClick={this.handleOnClick} />
+          <DetailView pokemon={this.state.pokemon} />
+        </div>
       </div>
     )
   }

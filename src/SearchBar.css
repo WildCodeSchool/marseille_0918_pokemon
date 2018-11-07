@@ -1,46 +1,57 @@
-.h3, h3 {
-    font-size: 2.75rem !important;
-    color: white !important;
-    font-weight: 600 !important;
-}
-.p-inputtext{
-    border-color: rgb(226, 43, 43) !important;
-    /* border: 20px !important; */
-}
-.p-autocomplete-input{
-    border-color: rgb(254, 204, 52) !important;
-    /* border: 20px !important; */
-    height: 55px !important;
-    width: 270px;
-    padding-left: 10px !important;    
-    border: solid 4px;
-    font-size: 20px;
-    font-weight: bolder;
-    background-color: #ffffffa3;
-    border-radius: 30px;
-    color: #4c681f !important;
+.h3,
+h3 {
+	font-size: 2.75rem !important;
+	color: white !important;
+	font-weight: 600 !important;
 }
 
-.p-autocomplete .p-component .p-inputwrapper-filled .p-inputwrapper-focus{
-    color: #244e22 !important;
+.p-inputtext {
+	border-color: rgb(226, 43, 43) !important;
 }
-.p-autocomplete-panel{    
-    background-color: #1f2c5dba;
+
+.p-autocomplete-input {
+	border-color: rgb(254, 204, 52) !important;
+	height: 55px !important;
+	width: 270px;
+	padding-left: 10px !important;
+	border: solid 4px;
+	font-size: 20px;
+	font-weight: bolder;
+	background-color: #ffffffa3;
+	border-radius: 30px;
+	color: #4c681f !important;
 }
-ul{
-    list-style: none;
-    padding: 0;
+
+.p-autocomplete .p-component .p-inputwrapper-filled .p-inputwrapper-focus {
+	color: #244e22 !important;
 }
-li{
-    text-align: start;
-    
+
+.p-autocomplete-panel {
+	background-color: #1f2c5dba;
 }
-.p-clearfix{
-    width: 277px;
+
+ul {
+	list-style: none;
+	padding: 0;
 }
+
+li {
+	text-align: start;
+}
+
+.p-clearfix {
+	width: 277px;
+}
+
+/*-------------Version Mobile------------------*/
 
 @media screen and (max-width: 768px) {
-    .p-clearfix img {
-     width: 85px !important;
-    }
-  }
+	.p-clearfix img {
+		width: 85px !important;
+	}
+	.divflex {
+		display: flex;
+		justify-content: center;
+		margin-top: 110px;
+	}
+}
